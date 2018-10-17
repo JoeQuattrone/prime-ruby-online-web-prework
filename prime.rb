@@ -3,7 +3,6 @@ def prime?(n)
    return false
   
   for i in 2...n do
-  
     if n % i ==  0 
      return false
     end
