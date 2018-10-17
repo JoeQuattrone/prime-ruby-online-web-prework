@@ -7,7 +7,7 @@ def prime?(n)
   return true
   
   for i in -2...-n do
-    if n % i == 0
+    if -n % i == 0
       return false
     end
   end
