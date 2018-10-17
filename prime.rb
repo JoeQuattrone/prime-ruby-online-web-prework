@@ -1,5 +1,5 @@
 def prime?(n)
-  for i in -n...n do
+  for i in -5...n do
       if n < 2
       return false
       
