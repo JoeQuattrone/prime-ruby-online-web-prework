@@ -3,6 +3,6 @@ def prime?(n)
     if n % i ==  0 
        true
   
-  else return false
+  else  false
   end
 end  
